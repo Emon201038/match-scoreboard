@@ -1,0 +1,10 @@
+input[type="number"] {
+  /* Remove the default number input arrows */
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none; /* Hide the up and down arrows */
+}
